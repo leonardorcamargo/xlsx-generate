@@ -1,0 +1,22 @@
+{
+  "name": "office-generate",
+  "version": "1.0.0",
+  "description": "Sample generating XLSX",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excel",
+    "node",
+    "javascript",
+    "generate"
+  ],
+  "author": "Leonardo Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "officegen": "^0.6.3"
+  }
+}
